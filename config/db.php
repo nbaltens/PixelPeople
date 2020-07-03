@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$password = 'Mokes123';
+$password = '***';
 $dbname = 'login-project';
 
 // setDSN - database source name
