@@ -16,7 +16,8 @@ if(isset( $_POST['login'])) {
     if( isset($user) ) {
         if( password_verify($password, $user -> password )) {
             $_SESSION['userId'] = $user -> id;
-            header('Location: http://localhost/loginphp/profile.php');
+            //header('Location: http://www.noahbaltensperger.com/projects/pixelpeople/profile.php');
+            echo "<script type='text/javascript'> document.location = 'http://www.noahbaltensperger.com/projects/pixelpeople/profile.php'; </script>";
         } else {
             $wrongLogin = "The Email/Login used is incorrect";
             
