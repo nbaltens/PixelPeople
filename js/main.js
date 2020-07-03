@@ -31,7 +31,7 @@ $(document).ready(function(){
 	{$('#menu').animate({marginLeft:0},'slow');$('#main').animate({marginLeft:220},'slow');$('#menu-icon').addClass('active');}
 	});
 
-const apiKey = 'FKnlhoQOuU5lqrylt8av1G_ytxCzCUENu7RgagmuzA8';
+const apiKey = '***';
 
 
 $('#userSearch').on('keypress',function(e) {
